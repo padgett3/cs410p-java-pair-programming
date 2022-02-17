@@ -25,8 +25,6 @@ public class Kata {
       return;
     }
     System.out.print(letter);
-    //print spaces
-    //printNSpaces(int num_Spaces);
     printNSpaces(getInnerSpaces(letter));
     System.out.println(letter);
   }
